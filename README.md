@@ -1,4 +1,4 @@
-# 2048
+# 2048 - Mobile and Desktop
 
 Play the game [here](https://2048game-phi.vercel.app/).
 
