@@ -1,0 +1,60 @@
+.container {
+  position: fixed;
+  right: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  margin: 0 auto;
+  padding: 0 5px;
+  user-select: none;
+}
+
+.howToPlayText {
+  padding: 20px 0;
+  margin: 0;
+  font-size: 13px;
+}
+
+.viewOnGithubLink {
+  font-size: 13px;
+  margin: 0;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  opacity: 0.6;
+  transition: opacity 0.2s ease;
+}
+
+.viewOnGithubLink:hover {
+  opacity: 1;
+}
+
+.githubLogo {
+  width: 15px;
+  height: 15px;
+  margin: 0 4px 1px 0;
+  fill: var(--text-dark);
+}
+
+.positionRelative {
+  position: relative;
+}
+
+.boldText {
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 1024px) {
+  .container {
+    transform: scale(1.2);
+  }
+
+  .howToPlayText,
+  .viewOnGithubLink {
+    line-height: 1.3;
+  }
+}

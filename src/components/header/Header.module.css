@@ -1,0 +1,80 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 5px;
+}
+
+.titleContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 52px;
+  margin: 0;
+}
+
+.subTitle {
+  font-size: 13px;
+  font-weight: 500;
+  margin: 5px 0 10px;
+}
+
+.gameInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.scoresContainer {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.scoreContainer {
+  min-width: 80px;
+  text-align: center;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--primary);
+  border-radius: 5px;
+  color: var(--text-light);
+  padding: 5px 10px;
+  box-sizing: border-box;
+}
+
+.scoreLabel {
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.scoreValue {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.undoBtn,
+.newGameBtn {
+  width: 80px;
+  height: 36px;
+  border-radius: 5px;
+  background-color: var(--primary-btn-bg);
+  border: 0;
+  color: var(--text-light);
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-left: 10px;
+  outline: 0;
+  padding: 0;
+  transition: opacity 0.2s ease;
+}
+
+.undoBtn:hover,
+.newGameBtn:hover {
+  opacity: 0.9;
+}
