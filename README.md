@@ -1,8 +1,6 @@
 # 2048
 
-This is a React implementation of the [2048](<https://en.wikipedia.org/wiki/2048_(video_game)>) game.
-
-Play the game [here]().
+Play the game [here](https://2048game-phi.vercel.app/).
 
 ![game screenshot](./public/game-ss.png)
 
